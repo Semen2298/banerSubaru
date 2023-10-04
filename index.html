@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="ad.size" content="width=100%,height=150">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subaru</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <section class="container">
+        <a id="click_area" href="#" target="_blank">
+            <div class="baner-wrapper">
+                <div class="baner__logo_wrapper">
+                    <img src="./logoSubaru.png" alt="logo">
+                </div>
+                <div class="baner__main-offer_wrapper">
+                    <div class="gradient"></div>
+                    <img src="./car.png" alt="car" class="car">
+                    <div class="baner-adaptive-logo">
+                        <img src="./subaruIcon.png" alt="" class="adaptive-subaruIcon-logo">
+                        <img src="./subaru.png" alt="" class="adaptive-subaru-logo">
+                    </div>
+                    <div class="baner__offer-text active">
+                        <div class="baner__offer-text_flex-wrap">
+                            <span class="offer-text__white">
+                                Июль – время
+                            </span>
+                            <span class="offer-text__orange">
+                                горячих предложений
+                            </span>
+                        </div>
+                    </div>
+                    <div class="baner__offer-text ">
+                        <div class="baner__offer-text_wrapper">
+                            <span class="offer-text__orange flex-dash">
+                                <div class="border"></div>
+                                автомобили
+                            </span>
+                            <span class="offer-text__white flex-dash">
+                                <div class="border-none"></div>
+                                в наличии
+                            </span>
+                        </div>
+                        <div class="baner__offer-text_wrapper">
+                            <span class="offer-text__orange flex-dash">
+                                <div class="border"></div>
+                                большой
+                            </span>
+                            <span class="offer-text__white flex-dash">
+                                <div class="border-none"></div>
+                                выбор
+                            </span>
+                        </div>
+                    </div>
+                    <div class="baner__offer-text japan-center ">
+                        <div class="japan-back">
+                            <div class="japan-circle"></div>
+                        </div>
+                        <div class="baner__offer-text_flex-wrap adaptive-flex-japan">
+                            <span class="offer-text__white">
+                                японская
+                            </span>
+                            <span class="offer-text__orange">
+                                сборка
+                            </span>
+                        </div>
+                        <div class="baner__btn-adaptive btn">
+                            смотреть
+                        </div>
+                    </div>
+                    <div class="baner__btn">
+                        <div class="btnAbs btn">
+                            смотреть <span class="btnDel">предложения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <script> 
+            document.getElementById("click_area").href = yandexHTML5BannerApi.getClickURLNum(1); 
+         </script>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
